@@ -1,5 +1,5 @@
 ## Overall Description
-The Cleaning Data.R script loads data and then cleans up the data using the 5 steps as described in the course project’s instructions.
+The run_analysis.R script loads data and then cleans up the data using the 5 steps as described in the course project’s instructions.
 
 
 
