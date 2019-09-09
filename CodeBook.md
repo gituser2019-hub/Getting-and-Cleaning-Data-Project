@@ -38,7 +38,9 @@ contains test data of 30% of volunteer test subjects being observed
 
 ## Merge Train and Test Data Into One Data Set
 train (7352 records, 563 columns) is created by joining the x, y and subject within the train data set into the new train data frame  
-test (2947 records, 563 column) is created by joining the x, y and subject within the test data set into the new test data frame  
+
+test (2947 records, 563 column) is created by joining the x, y and subject within the test data set into the new test data frame 
+
 data (10299 records, 563 column) is created by merging train and test data set using the rbind() function  
 
 
@@ -57,7 +59,8 @@ Vector column names (V1, V2 etc..) of the extract_data replaced with correspondi
 
 
 ## Appropriately labels the data set with descriptive variable names
-replace the abbreviated part of column names in extract_data by the longer version descriptions, transformation rule as follows:  
+replace the abbreviated part of column names in extract_data by the longer version descriptions, transformation rule as follows: 
+
 All "Acc" in column’s name replaced by "Accelerometer"  
 All "Gyro" in column’s name replaced by "Gyroscope"  
 All "BodyBody" in column’s name replaced by "Body"  
@@ -71,4 +74,5 @@ All "-std()" in column's name replaced by "_StandardDeviation" (regardless of th
 
 ## From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject
 tidy_data (180 rows, 68 columns) is created by sumarizing extract_data taking the means of each variable for each activity and each subject, after aggregating by subject and activity.  
+
 Write the tidy_data into a file called Tidy Data.txt  
