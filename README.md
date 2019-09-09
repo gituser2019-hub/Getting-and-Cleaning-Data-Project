@@ -26,5 +26,5 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 ## Files within this repo
 ReadMe.md----General information about this repo  
 CodeBook.md----a code book that describes the variables, the data, and any transformations or work that I performed to clean up the data      
-Cleaning Data.R----R scripts that used to clean up the data  
-Tidy Data.txt----tidy data output from the cleaning data scripts  
+run_analysis.R----R scripts that used to clean up the data  
+Tidy Data.txt----tidy data output from the run_analysis scripts  
