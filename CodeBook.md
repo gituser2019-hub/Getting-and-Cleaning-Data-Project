@@ -59,7 +59,7 @@ Vector column names (V1, V2 etc..) of the extract_data replaced with correspondi
 
 
 ## Appropriately labels the data set with descriptive variable names
-replace the abbreviated part of column names in extract_data by the longer version descriptions, transformation rule as follows: 
+Replace the abbreviated part of column names in extract_data by the longer version descriptions, transformation rule as follows: 
 
 All "Acc" in column’s name replaced by "Accelerometer"  
 All "Gyro" in column’s name replaced by "Gyroscope"  
